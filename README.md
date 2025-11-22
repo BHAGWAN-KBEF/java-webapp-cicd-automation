@@ -6,8 +6,6 @@ A complete DevOps CI/CD pipeline implementation for a Java web application using
 
 This project demonstrates a production-ready CI/CD pipeline that automates the build, test, quality analysis, containerization, and deployment of a Java Maven application to AWS ECS.
 
-![Pipeline Overview]![jenkins]
-
 
 ## 🏗️ Architecture
 
@@ -18,7 +16,9 @@ The pipeline implements the following workflow:
 - **Containerization**: Docker image creation and registry management
 - **Deployment**: Automated deployment to AWS ECS
 
-![Architecture Diagram](./images/architecture-diagram.png)
+![Architecture Diagram]
+<img width="1248" height="626" alt="diagram-export-11-22-2025-2_48_46-PM" src="https://github.com/user-attachments/assets/5e66ab3c-c698-492c-b1cf-7a87009b711e" />
+
 
 ## 🛠️ Technologies Used
 
