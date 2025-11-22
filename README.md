@@ -6,7 +6,8 @@ A complete DevOps CI/CD pipeline implementation for a Java web application using
 
 This project demonstrates a production-ready CI/CD pipeline that automates the build, test, quality analysis, containerization, and deployment of a Java Maven application to AWS ECS.
 
-![Pipeline Overview](./images/pipeline-overview.png)
+![Pipeline Overview]![jenkins]
+
 
 ## 🏗️ Architecture
 
@@ -72,8 +73,6 @@ The pipeline implements the following workflow:
 ### 9. **Cleanup**
 - Removes local Docker images to free up space
 
-![Pipeline Flow](./images/pipeline-stages.png)
-
 ## 🔧 Prerequisites
 
 - Jenkins server with required plugins
@@ -87,15 +86,19 @@ The pipeline implements the following workflow:
 
 ## 📊 Pipeline Results
 
-![Build Success](./images/build-success.png)
+![Build Success]
+![jenkins](https://github.com/user-attachments/assets/3931e955-dd83-4b4f-8eed-5833643752f9)
+
 
 ### Quality Metrics
-- **Code Coverage**: [Insert coverage percentage]
-- **Technical Debt**: [Insert debt ratio]
-- **Security Vulnerabilities**: [Insert count]
-- **Code Smells**: [Insert count]
+- **Code Coverage**: 0.0% (540 lines to cover)
+- **Technical Debt**: 8 days 5 hours
+- **Security Vulnerabilities**: 0
+- **Code Smells**:746
 
-![SonarQube Dashboard](./images/sonarqube-dashboard.png)
+![SonarQube Dashboard]
+<img width="775" height="376" alt="image" src="https://github.com/user-attachments/assets/ad18d577-58ba-44e7-a557-bd34377a8509" />
+
 
 ## 🚀 Deployment
 
@@ -103,7 +106,9 @@ The application is automatically deployed to AWS ECS upon successful pipeline co
 
 **Note**: This is a demonstration project - AWS resources are provisioned temporarily for testing and then torn down to avoid ongoing costs.
 
-![Deployed Application](./images/deployed-app.png)
+![Deployed Application]
+<img width="947" height="473" alt="image" src="https://github.com/user-attachments/assets/9749ddf9-33e2-47c0-8692-8fbac10ccc0f" />
+
 
 ## 📈 Monitoring & Observability
 
@@ -112,7 +117,9 @@ The application is automatically deployed to AWS ECS upon successful pipeline co
 - **Application Health**: AWS ECS service monitoring
 - **Container Metrics**: CloudWatch integration
 
-![Monitoring Dashboard](./images/monitoring-dashboard.png)
+![Monitoring Dashboard]
+<img width="776" height="350" alt="image" src="https://github.com/user-attachments/assets/a5be39a1-78b5-4655-abf1-a3790f2de455" />
+
 
 ## 🔐 Security Features
 
@@ -147,10 +154,10 @@ The application is automatically deployed to AWS ECS upon successful pipeline co
 
 ## 📞 Contact
 
-**Developer**: [Your Name]  
-**Email**: [your.email@example.com]  
-**LinkedIn**: [Your LinkedIn Profile]  
-**GitHub**: [Your GitHub Profile]
+**Developer**:Emmanuel Frimpong Kyei-Baffour  
+**Email**: baffouremmanuel1997@gmail.com  
+**LinkedIn**: www.linkedin.com/in/emmanuelfrimpongkyei-baffour  
+**GitHub**: BHAGWAN-KBEF
 
 ---
 
